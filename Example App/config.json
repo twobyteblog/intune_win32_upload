@@ -1,0 +1,17 @@
+{
+    "Name":  "Disable Adobe Acrobat AI",
+    "Description":  "Disable Adobe AI integration.",
+    "Publisher":  "Inundation",
+    "PreviousVersion":  "",
+    "CurrentVersion":  "1.0",
+    "IntuneWINExecutable":  "main.ps1",
+    "InstallExperience":  "system",
+    "InstallCommand":  "%SystemRoot%\\sysnative\\WindowsPowerShell\\v1.0\\powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -NoLogo -File .\\main.ps1 -Install",
+    "UninstallCommand":  "%SystemRoot%\\sysnative\\WindowsPowerShell\\v1.0\\powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -NoLogo -File .\\main.ps1 -Uninstall",
+    "InstallationTime":  "60",
+    "DeviceRestartBehaviour":  "suppress",
+    "ReturnCode":  "",
+    "ReturnValue":  "",
+    "RequirementArchitecture":  "x64",
+    "RequirementOS":  "W10_22H2"
+}
